@@ -3,11 +3,13 @@
 
  # gem "rails"
 
- gem 'activerecord', '~> 5.2.3', :require => 'active_record'
- gem 'rake'
- gem 'require_all'
-gem 'sqlite3', '~>1.3.6'
- gem 'pry'
- gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
- gem 'rspec'
- gem 'database_cleaner'
+gem "sqlite3", "~> 1.4.0"
+gem 'pry'
+gem 'rake'
+gem 'require_all'
+# gem 'activerecord'
+gem 'activerecord', "~>5.2.3"
+gem 'sinatra-activerecord'
+gem 'rest-client'
+
+
